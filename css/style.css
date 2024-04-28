@@ -1,0 +1,76 @@
+body{
+    margin:0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#Titulo{
+    color: white;
+    margin: 0;
+}
+
+.Menu{
+    max-width: 100vw;
+    background: rgb(0, 0, 0);   
+    margin: 0;
+    padding: 2% 2% 2% 2em;
+    border: 0;
+}
+
+.Menu li {
+    display: inline;
+}
+
+.OptionMenu{
+    color:white;
+    padding-inline: 2px;
+    text-decoration: none;
+}
+
+#SeccionTitulo{
+    margin: 0;
+    border:0;
+    padding: 0;
+    background: rgb(60, 3, 120);
+    height: auto;
+    padding: 1% 1% 1% 3%;
+
+}
+
+#contenido{
+    background:rgb(222, 216, 216);
+    height: 100vh;
+}
+
+#Target{
+    max-width: 100vw;
+    background: rgb(252, 235, 235);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 100%;
+}
+
+.Tarjeta{
+    padding: 1%;
+    width: 20%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden; /* Para que las esquinas redondeadas se apliquen correctamente */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para efecto de elevación */
+    margin: 20px;
+    background: white;
+
+}
+
+.imgTarjeta{
+    padding-top: 2%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.imgTarjeta img{
+    border-radius: 6px;
+}
+
+.InfoTarjeta{
+    text-align: center;
+}
