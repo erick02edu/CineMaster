@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#Titulo{
+    color: white;
+    margin: 0;
+}
+
+.Menu{
+    max-width: 100vw;
+    background: rgb(0, 0, 0);   
+    margin: 0;
+    padding: 2% 2% 2% 2em;
+    border: 0;
+}
+
+.Menu li {
+    display: inline;
+}
+
+.OptionMenu{
+    color:white;
+    padding-inline: 2px;
+    text-decoration: none;
+}
+
+#SeccionTitulo{
+    margin: 0;
+    border:0;
+    padding: 0;
+    background: rgb(60, 3, 120);
+    height: auto;
+    padding: 1% 1% 1% 3%;
+
+}
+
+#contenido{
+    background:rgb(222, 216, 216);
+    height: 100vh;
+}
+
+#Catalogo{
+
+    width: 100vw;
+    background: red;
+    color: white;
+
+}
+
+#product{
+    margin-left: 3%;
+    size: 12px;
+}
